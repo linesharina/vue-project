@@ -1,5 +1,8 @@
 <template>
-    <NavBar />
+    <div class="info">
+        <NavBar />
+        <h1>{{ fullname }}</h1>
+    </div>
 </template>
 
 <script>
@@ -9,12 +12,29 @@ export default {
   name: 'Info',
   components: {
     NavBar,
+  },
+  props: {
+      fullname: String
   }
 }
 </script>
 
 <style>
-#app {
+    h1 {
+        font-size: 6em;
+        width: 100%;
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .info {
+    }
 
-}
+    @media screen and (min-width: 1024px) {
+        h1 {
+            font-size: 8em;
+            color: #191948
+        }
+    }
+
+
 </style>
