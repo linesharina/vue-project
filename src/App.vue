@@ -17,6 +17,18 @@ export default {
 
 <style>
 #app {
-
+  width: 100%;
 }
+
+@media screen and (min-width: 1024px) {
+  #app {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: linear-gradient(to right, #191948, #2F2F82); */
+      background-image: linear-gradient(to bottom right, #2F2F82, #191948);
+
+  }
+} 
+
 </style>
