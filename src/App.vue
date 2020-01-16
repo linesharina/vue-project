@@ -23,6 +23,7 @@ export default {
 @media screen and (min-width: 1024px) {
   #app {
     width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     /* background-color: linear-gradient(to right, #191948, #2F2F82); */

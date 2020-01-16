@@ -22,7 +22,8 @@ export default {
 <style>
     h1 {
         font-size: 6em;
-        width: 90%;
+        width: 100%;
+        max-width: 90%;
         margin: 0 auto;
         font-family: 'Playfair Display', serif;
     }
