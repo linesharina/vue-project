@@ -1,8 +1,8 @@
 <template>
     <div class="info-wrapper">
-        <img src="../assets/bg.jpg" alt="Colorful image">
+        <img src="../assets/bg-2.jpg" alt="Colorful image">
         <div class="bg-img"></div>
-        <Info fullname="Loru Mipsumer" />
+        <Info fullname="Line Sharina" />
     </div>
 </template>
 
