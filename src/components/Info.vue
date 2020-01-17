@@ -26,6 +26,7 @@ export default {
         max-width: 90%;
         margin: 0 auto;
         font-family: 'Playfair Display', serif;
+        color: #191948
     }
     
     .info {
@@ -37,7 +38,6 @@ export default {
     @media screen and (min-width: 1024px) {
         h1 {
             font-size: 8em;
-            color: #191948
         }
     }
 
