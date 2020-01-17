@@ -15,11 +15,13 @@
 
     nav a {
         text-decoration: none;
+        text-transform: uppercase;
         color: black;
     }
 
     nav a:hover {
-        color: orange;
+        color: darkgreen;
         cursor: pointer;
+        font-weight: bold;
     }
 </style>
