@@ -16,6 +16,11 @@ export default {
 </script>
 
 <style>
+
+a, p {
+  font-family: 'Lato', sans-serif;
+}
+
 #app {
   width: 100%;
 }
