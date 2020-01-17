@@ -32,7 +32,9 @@ a, p {
     display: flex;
     justify-content: center;
     /* background-color: linear-gradient(to right, #191948, #2F2F82); */
-      background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+    /* background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%); */
+    background-color: #deecdd;
   }
 } 
 

@@ -26,13 +26,15 @@ export default {
         max-width: 90%;
         margin: 0 auto;
         font-family: 'Playfair Display', serif;
-        color: #191948
+        color: #191948;
+        line-height: 1;
     }
     
     .info {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        overflow: auto;
     }
 
     @media screen and (min-width: 1024px) {

@@ -1,6 +1,6 @@
 <template>
     <div class="info-wrapper">
-        <img src="../assets/bg-2.jpg" alt="Colorful image">
+        <img :src="image" alt="Colorful image">
         <div class="bg-img"></div>
         <Info fullname="Line Sharina" />
     </div>
@@ -11,6 +11,11 @@ import Info from './Info.vue'
 
 export default {
   name: 'InfoWrapper',
+  data() {
+      return {
+          image: require("../assets/bg-2.jpg")
+      }
+  },
   components: {
     Info
   }
@@ -21,6 +26,7 @@ export default {
     img {
         width: 100%;
         height: 80%;
+        object-fit: cover;
     }
 
     @media screen and (min-width: 1024px) {
@@ -35,7 +41,7 @@ export default {
             max-width: 900px;
             margin: 100px 0;
             background-color: white;
-            box-shadow: 14px 13px 20px -10px #191948;
+            box-shadow: 0 29px 40px -27px rgba(19, 72, 15, 0.6);
         }
     }
     
