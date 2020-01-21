@@ -2,7 +2,7 @@
     <div class="info-wrapper">
         <img :src="image" alt="Colorful image">
         <div class="bg-img"></div>
-        <Info fullname="Line Sharina" />
+        <Info title="Line Sharina" />
     </div>
 </template>
 
