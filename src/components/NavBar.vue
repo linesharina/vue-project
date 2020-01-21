@@ -1,8 +1,8 @@
 <template>
     <nav>
-        <a href="#">Om meg</a>
-        <a href="#">Referanser</a>
-        <a href="#">Kontakt</a>
+        <router-link to="/about">Om meg</router-link>
+        <router-link to="/references">Referanser</router-link>
+        <router-link to="/contact">Kontakt</router-link>
     </nav>
 </template>
 

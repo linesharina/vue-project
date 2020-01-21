@@ -1,16 +1,17 @@
 <template>
   <div id="app">
-    <InfoWrapper />
+    <!-- <InfoWrapper /> -->
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import InfoWrapper from './components/InfoWrapper.vue'
+// import InfoWrapper from './components/InfoWrapper.vue'
 
 export default {
   name: 'app',
   components: {
-    InfoWrapper
+    // InfoWrapper
   }
 }
 </script>
