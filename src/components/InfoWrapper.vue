@@ -2,7 +2,7 @@
     <div class="info-wrapper">
         <img :src="image" alt="Colorful image">
         <div class="bg-img"></div>
-        <Info title="Line Sharina" />
+        <Info id="fp-title" title="Line Sharina" />
     </div>
 </template>
 
@@ -27,6 +27,13 @@ export default {
         width: 100%;
         height: 50vh;
         object-fit: cover;
+    }
+
+    #fp-title h1 {
+        width: 100%;
+        max-width: 90%;
+        margin: 0 auto;
+
     }
 
     @media screen and (min-width: 1024px) {

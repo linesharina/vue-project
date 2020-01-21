@@ -22,12 +22,9 @@ export default {
 <style>
     h1 {
         font-size: 5.5em;
-        margin: 0 auto;
         font-family: 'Playfair Display', serif;
         color: #191948;
         line-height: 1;
-        width: 100%;
-        max-width: 90%;
     }
     
     .info {
