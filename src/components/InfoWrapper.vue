@@ -25,7 +25,7 @@ export default {
 <style>
     img {
         width: 100%;
-        height: 80%;
+        height: 50vh;
         object-fit: cover;
     }
 
