@@ -1,6 +1,6 @@
 <template>
  <div>
-     <Info title="References" />
+     <Info title="Referanser" />
 </div>
 </template>
 

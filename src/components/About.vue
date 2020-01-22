@@ -1,6 +1,6 @@
 <template>
  <div>
-     <Info title="About" />
+     <Info title="Om meg" />
 </div>
 </template>
 

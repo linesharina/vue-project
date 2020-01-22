@@ -25,6 +25,7 @@ export default {
         font-family: 'Playfair Display', serif;
         color: #191948;
         line-height: 1;
+        max-width: 100%;
     }
     
     .info {
