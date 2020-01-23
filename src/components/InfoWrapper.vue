@@ -1,13 +1,19 @@
 <template>
     <div class="info-wrapper">
-        <img :src="image" alt="Colorful image">
-        <div class="bg-img"></div>
-        <Info id="fp-title" title="Line Sharina" />
+        <!-- <Info id="fp-title" title="Line Sharina" /> -->
+        <Info>
+            <img slot="img" :src="image" alt="Colorful image">
+            <div class="content" slot="content">
+                <h1 id="fp-title">Lorum Ipsum</h1>
+                <NavBar />
+            </div>
+        </Info>
     </div>
 </template>
 
 <script>
 import Info from './Info.vue'
+import NavBar from './NavBar.vue'
 
 export default {
   name: 'InfoWrapper',
@@ -17,7 +23,8 @@ export default {
       }
   },
   components: {
-    Info
+    Info,
+    NavBar
   }
 }
 </script>
@@ -29,17 +36,25 @@ export default {
         object-fit: cover;
     }
 
-    #fp-title h1 {
+    #fp-title {
         width: 100%;
         max-width: 90%;
         margin: 0 auto;
+        text-align: center;
+    }
 
+    .content {
+        padding: 50px 0;
     }
 
     @media screen and (min-width: 1024px) {
         img {
             width: 50%;
             height: 100%;
+        }
+
+        #fp-title {
+            text-align: left;
         }
 
         .info-wrapper {

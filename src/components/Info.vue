@@ -1,17 +1,19 @@
 <template>
     <div class="info">
-        <h1>{{ title }}</h1>
-        <NavBar />
+        <!-- <h1>{{ title }}</h1> -->
+        <slot name="img"></slot>
+        <slot name="content"></slot>
+            <!-- <NavBar /> -->
     </div>
 </template>
 
 <script>
-import NavBar from './NavBar.vue'
+// import NavBar from './NavBar.vue'
 
 export default {
   name: 'Info',
   components: {
-    NavBar,
+    // NavBar,
   },
   props: {
       title: String
@@ -31,13 +33,18 @@ export default {
     .info {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: left;
+        align-items: center;
         overflow: auto;
     }
 
     @media screen and (min-width: 1024px) {
         h1 {
             font-size: 8em;
+        }
+
+        .info {
+            flex-direction: row;
         }
     }
 
