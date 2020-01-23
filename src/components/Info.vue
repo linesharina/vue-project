@@ -40,7 +40,7 @@ export default {
 
     @media screen and (min-width: 1024px) {
         h1 {
-            font-size: 8em;
+            font-size: 6em;
         }
 
         .info {

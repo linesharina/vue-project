@@ -4,7 +4,7 @@
         <Info>
             <img slot="img" :src="image" alt="Colorful image">
             <div class="content" slot="content">
-                <h1 id="fp-title">Lorum Ipsum</h1>
+                <h1 id="fp-title">Line Sharina</h1>
                 <NavBar />
             </div>
         </Info>
@@ -44,7 +44,16 @@ export default {
     }
 
     .content {
-        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        padding: 25px 0;
+    }
+
+    .content h1 {
+        text-align: center;
     }
 
     @media screen and (min-width: 1024px) {
@@ -55,6 +64,7 @@ export default {
 
         #fp-title {
             text-align: left;
+            font-size: 8em;
         }
 
         .info-wrapper {

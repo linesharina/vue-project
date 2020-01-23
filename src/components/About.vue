@@ -6,6 +6,8 @@
             <div class="content" slot="content">
                 <NavBar />
                 <h1>Om meg</h1>
+                <!-- <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Curabitur eget risus ut eros suscipit lobortis. </p> -->
             </div>
         </Info>
     </div>
