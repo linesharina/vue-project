@@ -30,6 +30,15 @@ export default {
 </script>
 
 <style>
+
+    html {
+        box-sizing: border-box;
+    }
+    
+    *, *:before, *:after {
+     box-sizing: inherit;
+    }
+
     img {
         width: 100%;
         height: 50vh;
@@ -52,8 +61,9 @@ export default {
         padding: 25px 0;
     }
 
-    .content h1 {
-        text-align: center;
+    .content h1,
+    .content p {
+        padding: 0 25px;
     }
 
     @media screen and (min-width: 1024px) {
