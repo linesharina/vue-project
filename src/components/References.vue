@@ -5,7 +5,7 @@
             <img slot="img" :src="image" alt="Colorful image">
             <div class="content" slot="content">
                 <NavBar />
-                <h1>Referanser</h1>
+                <h1>Kommer</h1>
             </div>
         </Info>
     </div>
